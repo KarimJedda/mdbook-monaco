@@ -30,4 +30,8 @@ actions:
 
 will generate the following:
 
-You can adapt the functionality by providing the runCode yourself. 
+You can adapt the functionality by providing the implementations for runCode & buildProject yourself. 
+
+# Get started
+
+
