@@ -9,6 +9,7 @@ Using this will create a pane where you can edit files. The file contents are st
 
 ````
 ```monaco
+id: editor1_chapter1
 files:
   - name: "main.js"
     language: javascript
@@ -19,6 +20,14 @@ files:
     language: html
     content: |
       <!-- HTML content here -->
-action: customJSFunction
+actions:
+  - name: "run"
+    function: runCode
+  - name: "build"
+    function: buildProject
 ```
 ````
+
+will generate the following:
+
+You can adapt the functionality by providing the runCode yourself. 
