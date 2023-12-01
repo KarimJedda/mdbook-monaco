@@ -20,5 +20,4 @@ files:
     content: |
       <!-- HTML content here -->
 action: customJSFunction
-```
-```
+``````
