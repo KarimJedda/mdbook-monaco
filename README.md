@@ -32,8 +32,6 @@ will generate the following:
 
 ![Multi pane editor for mdBook](example.png)
 
-![Multi pane editor for mdBook](example.png)
-
 You can adapt the functionality by providing the implementations for runCode & buildProject yourself. 
 
 # Get started
