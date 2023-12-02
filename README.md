@@ -51,7 +51,7 @@ Then let `mdbook-monaco` add the required files and configuration:
 mdbook-monaco install path/to/your/book
 ```
 
-Then, create a theme/head.hbs file with following content:
+Then, create a `theme/head.hbs` file in `path/to/your/book` with following content:
 
 ```html
 <script type="module"> 
