@@ -30,6 +30,8 @@ actions:
 
 will generate the following:
 
+![Multi pane editor for mdBook](example.png)
+
 You can adapt the functionality by providing the implementations for runCode & buildProject yourself. 
 
 # Get started
@@ -43,6 +45,23 @@ Then let `mdbook-monaco` add the required files and configuration:
 ```
 mdbook-monaco install path/to/your/book
 ```
+
+Then, create a theme/head.hbs file with following content:
+
+```html
+<script type="module"> 
+    import * as monaco from 'https://cdn.jsdelivr.net/npm/monaco-editor@0.44.0/+esm'
+    window.monaco = monaco;
+</script>
+```
+
+# TODOS
+
+- [ ] Make it prettier
+- [ ] Test it a bit more (especially regressions)
+- [ ] Load CSS & Javascript only on required pages, not all of them
+- [ ] Automate the integration of the `head.hbs` file (one step less)
+- [ ] ???
 
 
 # License
