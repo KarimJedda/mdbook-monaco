@@ -65,23 +65,6 @@ Then, create a theme/head.hbs file with following content:
 - [ ] Automate the integration of the `head.hbs` file (one step less)
 - [ ] ???
 
-Then, create a theme/head.hbs file with following content:
-
-```html
-<script type="module"> 
-    import * as monaco from 'https://cdn.jsdelivr.net/npm/monaco-editor@0.44.0/+esm'
-    window.monaco = monaco;
-</script>
-```
-
-# TODOS
-
-- [ ] Make it prettier
-- [ ] Test it a bit more (especially regressions)
-- [ ] Load CSS & Javascript only on required pages, not all of them
-- [ ] Automate the integration of the `head.hbs` file (one step less)
-- [ ] ???
-
 
 # License
 
