@@ -1,0 +1,28 @@
+[package]
+name = "mdbook-monaco"
+version = "0.1.0"
+authors = ["Karim Jedda <karim.jedda@gmail.com>"]
+description = "mdbook preprocessor to add monaco multi file support using monaco"
+license = "MPL-2.0"
+homepage = "https://github.com/KarimJedda/mdbook-monaco"
+repository = "https://github.com/KarimJedda/mdbook-monaco"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mdbook = "0.4.36"
+serde = { version = "1.0.193", features = ["derive"] }
+serde_yaml = "0.9.27"
+pulldown-cmark = { version = "0.9.0", default-features = false }
+log = "0.4.20"
+clap = "4.4.10"
+env_logger = "0.10.1"
+toml_edit = "0.21.0"
+serde_json = "1.0.108"
+
+
+[dev-dependencies]
+assert_cmd = "2.0.0"
+pretty_assertions = "1.0.0"
+tempfile = "3.3.0"
