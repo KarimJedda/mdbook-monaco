@@ -1,5 +1,10 @@
 # mdbook-monaco
-Multi-file editing for mdBook. 
+
+> [!CAUTION]
+> This repo is still highly experimental. Check the code before doing anything. 
+
+Multi-file editing for mdBook.
+
 
 # How it works
 
