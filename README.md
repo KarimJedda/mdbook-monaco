@@ -34,4 +34,23 @@ You can adapt the functionality by providing the implementations for runCode & b
 
 # Get started
 
+```
+cargo install --git https://github.com/KarimJedda/mdbook-monaco
+```
 
+Then let `mdbook-monaco` add the required files and configuration:
+
+```
+mdbook-monaco install path/to/your/book
+```
+
+
+# License
+
+MPL. See LICENSE.
+
+Copyright (c) 2023 Karim Jedda karim.jedda@gmail.com
+
+# Credits
+
+The codebase is largely inspired from the [mdbook-mermaid](https://github.com/badboy/mdbook-mermaid/tree/main) repository by Jan-Erik Rediger. 
